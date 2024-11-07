@@ -1,0 +1,381 @@
+.skills-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.tech-card {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.tech-card img {
+    width: 60px;
+    height: 60px;
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.tech-card .card-body {
+    padding: 1rem;
+}
+
+.tech-card h5 {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Hover Animation */
+.tech-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tech-card:hover img {
+    transform: scale(1.2);
+}
+
+/* Colors for each card */
+.html-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.css-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.js-card {
+    background-color: #dbdada;
+    color: #333;
+}
+
+.react-card {
+    background-color: #dbdada;
+    color: #333;
+}
+
+.nextjs-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.bootstrap-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.tailwind-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.express-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.nodejs-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.sql-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.mongodb-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.github-card {
+    background-color: #dbdada;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.projects-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    animation: fadeIn 1s ease;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.btn-primary,
+.btn-secondary {
+    width: 100%;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Custom Styling */
+.contact-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #04080c;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #ff0d0d;
+    color: rgb(250, 250, 250);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: #000000;
+}
+
+.footer .email a {
+    font-size: 18px;
+}
+
+.footer img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.contact-title span {
+    color: #000000;
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-info,
+.contact-form {
+    width: 45%;
+    padding: 20px;
+}
+
+.contact-info h4,
+.contact-form h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    color: #000000;
+    margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.contact-form button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(226, 224, 224) !important;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.social-links a {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.education-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.introduction {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.details,
+.performance {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+.education-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
